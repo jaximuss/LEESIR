@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="../LEESIR.Abstractions/LEESIR.Abstractions.csproj" />
+  <Project Path="../LEESIR.CompatibilityRunner/LEESIR.CompatibilityRunner.csproj" />
+  <Project Path="../LEESIR.CoreChecks/LEESIR.CoreChecks.csproj" />
+  <Project Path="../LEESIR.Cores.Gameboy/LEESIR.Cores.Gameboy.csproj" />
+  <Project Path="../LEESIR.Cores.Nes/LEESIR.Cores.Nes.csproj" />
+  <Project Path="../LEESIR.Host/LEESIR.Host.csproj" />
+  <Project Path="../LEESIR.NesChecks/LEESIR.NesChecks.csproj" />
+  <Project Path="LEESIR.csproj" />
+</Solution>

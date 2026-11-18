@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Form1.Assistant.resx" />
+    <EmbeddedResource Remove="Form1.RomLoading.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Form1.Assistant.resx" />
+    <None Include="Form1.RomLoading.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LEESIR.Abstractions\LEESIR.Abstractions.csproj" />
+    <ProjectReference Include="..\LEESIR.Cores.Gameboy\LEESIR.Cores.Gameboy.csproj" />
+    <ProjectReference Include="..\LEESIR.Cores.Nes\LEESIR.Cores.Nes.csproj" />
+    <ProjectReference Include="..\LEESIR.Host\LEESIR.Host.csproj" />
+  </ItemGroup>
+
+</Project>
